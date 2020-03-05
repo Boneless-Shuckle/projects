@@ -95,6 +95,39 @@ if (choice ==3)
         System.out.println("ok dude chill. I am now up.");	
 	  }
 	}
+	
+//Begin 0 per
+public void zeroPeriod()
+{	
+	
+	System.out.print("You walk into English thinking maybe this time it’ll be different. Maybe I’ll stay awake! NAY, I MUST stay awake.";)
+	
+	//switch function
+	int choice;
+	String dStr;
+	switch(choice){
+	case 1:
+		dStr = "Sleep in class";
+		break;
+			
+	case 2:
+		dStr = "Take notes during lecture"
+		break;
+		}
+	System.out.println(dStr);
+	
+	if(dStr == "Sleep in class")
+	{
+		System.out.println(" [zzzzz. .. zzz]");
+		//wait
+		System.out.println(" Mrs. Cheney :”Why are you sleeping in my class? *WHACK*”);
+	}
+	else
+	{
+		System.out.println(" Mrs.Cheney:”Wow, your notes look so good. Good enough that a pop-quiz shouldn't be a problem for you, right?")
+	}
+	
+	
 }
 }
 }
